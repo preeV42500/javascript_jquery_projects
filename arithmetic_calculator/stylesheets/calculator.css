@@ -1,0 +1,40 @@
+html, body {
+  padding: 25px 0;
+  margin: 0;
+  background: #780e24;
+}
+
+main {
+  width: 500px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+form fieldset {
+  border: none;
+  padding: 0;
+}
+
+input[type="number"] {
+  width: 80px;
+  height: 30px;
+  font: normal 24px monospace;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background: #d5d5d5 linear-gradient(to bottom, #f0f0f0, #d5d5d5);
+}
+
+h1 {
+  font: normal 40px monospace;
+  color: #16997c;
+}
