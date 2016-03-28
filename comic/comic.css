@@ -7,6 +7,12 @@
   background: transparent url("xkcd.gif") 0 0 no-repeat;
 }
 
+p {
+  width: 705px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
 [id^="panel"] {
   float: left;
   width: 215px;
