@@ -85,7 +85,7 @@ $(function() {
 
     $.ajax({
       url: $f.attr("action"),
-      type: $.attr("method"),
+      type: $f.attr("method"),
       data: $f.serialize(),
       success: function(json) {
         $("#comments ul").append(templates.comment(json));
